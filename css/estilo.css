@@ -55,7 +55,7 @@ p {
 
 .submenu a{
 	color: white;
-	font-family: arial;
+	font-family: 'Oswald', sans-serif;
 	padding-left: 20px;
 }
 
@@ -88,13 +88,14 @@ p {
 
 .texto-carousel-one{
 	margin: 0;
-	font-family: arial;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
 }
 
 .titulo-exposicao{
 	text-transform: uppercase;
 	color: red;
-	font-family: arial, Sans-Serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
     margin-left: 20px;
 }
@@ -112,16 +113,16 @@ p {
 .colecao h4{
 	text-transform: uppercase;
 	color: #141720;
-	font-family: arial, Sans-Serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: bold;
 	padding: 16px 0 0 16px;
 }
 
 .colecao p{
 	color: #141720;
-	font-family: arial;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
-	font-size: 11px;
+	font-size: 15px;
 	padding-left: 16px;
 	padding-right: 10px;
 }
@@ -695,7 +696,7 @@ p {
 
 .entre-em-contato{
 	width: 90%;
-    height: 350px;
+    height: 480px;
     background-color: #8a2c2c;
     box-shadow: 3px 6px 8px -1px #9e9b9a;
     background-size: cover;
@@ -720,20 +721,85 @@ p {
 }
 
 .formulario{
-	display: flex;
+	display: all;
 
 }
 
 .inputs{
 	width: 20%;
-
+	margin-left: 16px;
 }
 
 .formulario-interno{
 	width: 80%;
+	margin-left: 0px;
+}
 
+.sec{
+	padding-right: 10px !important;
 }
 
 #doidao{
 	margin-bottom: 15px !important;
+}
+
+
+
+.fundorodapefinal {
+	background-color: #141720;
+	margin-top: -98px;
+    margin-left: -1px;
+    padding: 100px;
+}
+
+.quadrofinal {
+	text-transform: uppercase;
+	color: white;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+    margin-left: 20px;
+}
+
+.historia{
+    width: 90%;
+    height: 120px;
+    background: url("../imagens/fast-shop-logo.png");
+    background-position: top center;
+    background-repeat: none;
+    background-size: cover;
+    margin: 20px auto 0 auto;
+}
+
+.historia h4{
+	text-transform: uppercase;
+	color: white;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+	padding: 8px 0 0 8px;
+}
+
+.museu{
+    width: 90%;
+    height: 120px;
+    background: url("../imagens/10.png");
+    background-position: top center;
+    background-repeat: none;
+    background-size: cover;
+    margin: 20px auto 0 auto;
+}
+
+.museu h4{
+	text-transform: uppercase;
+	color: white;
+	font-family: arial, Sans-Serif;
+	font-weight: bold;
+	padding: 8px 0 0 8px;
+}
+
+.fast{
+	margin: 20px auto 0 auto;
+}
+
+.patrocinadores {
+	
 }

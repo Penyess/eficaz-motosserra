@@ -5,7 +5,8 @@
 	<title>Museu</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">		
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald" rel="stylesheet">	
 </head>
 <body>
 	<!-- barra de navegação -->
@@ -18,6 +19,7 @@
 					<div class="menu-barra"></div>
 					<div class="menu-barra"></div>
 					<div class="menu-barra"></div>
+
 				</div>
 		    </div>
 		</div>
@@ -199,27 +201,53 @@
 			<p>Se preferir preencha os dados abaixo e em breve retornaremos seu contato.</p>
 			<div class="formulario">
 				<div class="inputs">
-					<p>Nome:</p>
-					<p>E-mail:</p>
-					<p>Telefone:</p>
-					<p>Assunto:</p>
-					<p>Mensagem:</p>
-				</div>
-				<div class="formulario-interno">
-					<form>
-						<input type="text" name="nome">
-						<input type="email" name="email">
-						<input type="phone" name="telefone">
-						<input type="text" name="assunto">
-						<input type="text" name="mensagem">
+					<form action="htpp://www.goya.pro.br/pq_recebe.asp" method="post">
+						<p>Nome:</p>
+						<input  type="text" name="nome" requered autofocus>
+						<p>E-mail:</p>
+						<input type="email" name="email" requered>
+						<p>Telefone:</p>
+						<input type="phone" name="telefone" requered>
+						<p>Assunto:</p>
+						<input type="text" name="mensagem" requered>
+						<p class="sec">Data de Nascimento:</p>
+						<input type="date" name="data_inicial" required>
+						<p>Mensagem:</p>
+						<input type="submit" name="btn_envia" value="Enviar">
 					</form>
+				</div>
+				<!-- <div>
+					<form action="htpp://www.goya.pro.br/pq_recebe.asp" method="post">
+						<p class="blocoum">Nome:</p> <input  type="text" name="nome" requered autofocus> <br>
+						<input type="email" name="email" requered>
+						<input type="phone" name="telefone" requered>
+						<input type="text" name="assunto" requered>
+						<input type="text" name="mensagem" requered>
+						<input type="submit" name="btn_envia" value="Enviar">
+					</form> -->
 				</div>
 			</div>
 		</div>
 
+	<!-- rodapé -->
+	<footer class="fundorodapefinal">
+		<div class="quadrofinal">
+			<h4>amigos do museu</h4>
+			<div class="patrocinadores">
+				<img class="fast" src="imagens/fast-shop-logo.png">
+				<img src="imagens/logo.png">
+				<img src="imagens/logo_client_mol-600x400-1.png">
+				<img src="imagens/Rectangle 2.png">
+				<img src="imagens/Toyota-logo-1989-2560x1440.png">
+				<img src="imagens/yakult-logo.png">
+			</div>
+			<p>O Museu Histórico da Imigração Japonesa no Brasil é mantido pela Bunkyo Sociedade Brasileira de Cultura Japonesa e de Assistência Social.</p>
+		</div>
+	</footer>		
 	
 
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 </body>
 </html>
